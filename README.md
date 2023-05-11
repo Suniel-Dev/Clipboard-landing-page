@@ -12,7 +12,7 @@ Creating a product landing page.
 ## Getting Started
 
 ## Live view
-[Live view]()
+[Live view](https://radiant-zuccutto-70ecde.netlify.app/)
 
 ## Prerequisite
 
