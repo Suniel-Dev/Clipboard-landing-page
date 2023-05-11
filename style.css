@@ -51,7 +51,7 @@ p {
 }
 
 .btns button:hover {
-  box-shadow: 0 0 5px black;
+  box-shadow: 0 0 10px black;
   cursor: pointer;
   font-size: 1.6rem;
 }
@@ -145,6 +145,7 @@ h4 {
 
 h5 {
   font-size: 2rem;
+  padding: 2rem 0;
 }
 
 .container4 {
@@ -154,6 +155,12 @@ h5 {
   flex-wrap: wrap;
   gap: 7rem;
   margin: 7rem 0;
+}
+
+.container5 {
+  width: 50%;
+  margin: 4rem auto;
+  text-align: center;
 }
 
 @media (max-width: 650px) {
@@ -197,5 +204,10 @@ h5 {
 
   .subtext {
     width: auto;
+  }
+
+  .container5 {
+    width: auto;
+    padding: 3rem;
   }
 }
