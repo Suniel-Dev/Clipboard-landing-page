@@ -63,4 +63,71 @@ p {
   background-color: rgb(60, 82, 251);
 }
 
+.container2 {
+  margin: 9rem 0;
+}
 
+.text1 {
+  width: 50%;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 4rem 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+.details {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+.img1 img {
+  width: 100%;
+  object-position: -5rem 0;
+  object-fit: cover;
+}
+
+.text {
+  padding: 0 4rem;
+}
+
+.text2 {
+  padding: 3rem 5rem 0;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+@media (max-width: 650px) {
+  .btns button {
+    width: auto;
+  }
+
+  .details {
+    display: block;
+  }
+
+  .text1 {
+    width: auto;
+    margin: 2rem 1rem;
+    border-top: 1px solid black;
+  }
+
+  .img1 img {
+    object-position: center;
+  }
+
+  .text {
+    padding: 3rem 2rem;
+  }
+
+  .text2 {
+    padding: 2rem 0;
+  }
+}
